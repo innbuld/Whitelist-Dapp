@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# Sample Whitelist Dapp Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This dapp can be used to whitelist users for any use, feel free to check the codes and use
 
-Try running some of the following tasks:
+- users connect wallet
+- users join the whitelist board
+- user cant claim whitelist twice
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+
+Terminologies used in the project
+
+- Solidity: for writing the smart contract
+- Hardhat: To test the contract and deploy
+- Ether js: used in connecting the backend to frontend
+- Next js : To write the frontend
